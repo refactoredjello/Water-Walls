@@ -8,7 +8,7 @@ const findGreatestWaterWalls = elevationMap => {
       start = i
       calculated = false;
 
-    } else if (elevationMap[i] >= elevationMap[start] && tracked.length > 0) {
+    } else if ((elevationMap[i] >= elevationMap[start] || !elevationMap[i + 1]) && tracked.length > 0 ) {
 
       end = i 
       lower = elevationMap[start] < elevationMap[end] ? elevationMap[start] : elevationMap[end]
