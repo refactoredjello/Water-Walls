@@ -47,8 +47,8 @@ const findGreatestWaterWalls = elevationMap => {
   //iterate over the elevationMap array
     // if at start of array or calculated is true
       // set start equal to current value
-    // if current is greater and tracked length is greater than 1 
-      //store sum of the subtraction of each tracked value from the lower of start or end
+    // if current is greater than start and tracked length is greater than 1 
+      //store sum of the subtraction of each tracked value from the lower of start and end
       //set calculated to true
       //set previous tracked equal tracked 
       //clear tracked
