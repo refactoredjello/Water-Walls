@@ -1,0 +1,29 @@
+{
+  "name": "water-walls",
+  "version": "0.0.1",
+  "description": "Given an array of integers representing walls, calculate the amount of water that would be trapped between the walls and which two walls would contain the most amount of water.",
+  "main": "waterWalls.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^22.1.4"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/refactoredjello/Water-Walls.git"
+  },
+  "keywords": [
+    "purple",
+    "rain",
+    "water",
+    "walls"
+  ],
+  "author": "Gil Mandler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/refactoredjello/Water-Walls/issues"
+  },
+  "homepage": "https://github.com/refactoredjello/Water-Walls#readme"
+}
